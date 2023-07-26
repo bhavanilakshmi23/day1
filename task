@@ -1,0 +1,45 @@
+ 1.  Write a blog on Difference between HTTP1.1 vs HTTP2
+
+  The Hypertext Transfer Protocol is an application protocol for distributed, collaborative, hypermedia information 
+systems that allows users to communicate data on the World Wide Web
+
+    HTTP 1.1 is the latest version of Hypertext Transfer Protocol (HTTP), the World Wide Web application protocol 
+that runs on top of the Internet's TCP/IP suite of protocols. HTTP 1.1 provides faster delivery of Web pages than 
+the original HTTP and reduces Web traffic.
+
+HTTP/1.1         
+
+a. the use works on the textual format.
+b. There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+c. It uses requests resource Inlining for use getting multiple pages
+d. It compresses data by itself.
+
+  HTTP/2 enables full request and response multiplexing. In practice, this means a connection made to a web server 
+from your browser can be used to send multiple requests and receive multiple responses. This gets rid of a lot of 
+the additional time that it takes to establish a new connection for each request.
+
+HTTP/2
+
+a. It works on the binary protocol.
+b. It allows multiplexing so one TCP connection is required for multiple requests.
+c. It uses PUSH frame by server that collects all multiple pages 
+d. It uses HPACK for data compression.
+
+
+
+
+2.Write a blog about objects and its internal representation in Javascript
+
+A JavaScript object is a collection of named values having state and behavior (properties and method)”., objects in 
+JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form 
+of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively,
+in the context of an object.
+
+A javaScript object is an entity having state and behavior (properties and method). For example: car, pen, bike,
+chair, glass, keyboard, monitor.
+
+You can create an object in three different ways:
+
+a. Using object literal.
+b. By creating instance of Object directly.
+c . By using constructor function.
